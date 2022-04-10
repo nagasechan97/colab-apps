@@ -117,7 +117,7 @@ do
         "Option 1")
             clear
             /home/colab/Colab-Apps/Dependencies/logo.sh
-            /home/colab/Colab-Apps/colab-apps.sh
+            /home/colab/Colab-Apps/Dependencies/colab-apps.sh
             ;;
         "Option 2")
         clear
@@ -256,7 +256,7 @@ do
         "Option 1")
             clear
             /home/colab/Colab-Apps/Dependencies/logo.sh
-            /home/colab/Colab-Apps/colab-apps.sh
+            /home/colab/Colab-Apps/Dependencies/colab-apps.sh
             ;;
         "Option 2")
         clear
