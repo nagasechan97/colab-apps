@@ -26,6 +26,7 @@ echo "$(tput setaf 4) $(tput setaf 4) Checking And Installing Missing Dependenci
 echo "$(tput setaf 6)=================================================================================================================================================================$(tput sgr 0)"
 apt update
 apt install winbind cabextract
+clear
 echo "$(tput setaf 2)         █████████████████ $(tput sgr 0)"
 echo "$(tput setaf 2)        ██               ██ $(tput sgr 0)"
 echo "$(tput setaf 2)        ██               ██ $(tput sgr 0)"
@@ -50,6 +51,7 @@ echo "$(tput setaf 4) $(tput setaf 1) ❀ $(tput setaf 4)Subscribe To My Channel
 echo "$(tput setaf 4) $(tput setaf 1) ❀ $(tput setaf 4)Follow Me On Facebook: https://bit.ly/3LAPF8U"
 echo "$(tput setaf 6)=================================================================================================================================================================$(tput sgr 0)"
 echo "$(tput setaf 4) $(tput setaf 4) Hello q(≧▽≦q), What Do You Want To Do?
+#bin/bash
 PS3='Please enter your choice: '
 options=("Install Software" "Install Desktop Environment" "Connect To Terminal Using SSH" "Mount Google Drive" "Suggest A New App" "Submit A New App" "Report An Error/Bug" "View Changelog" "Quit")
 select opt in "${options[@]}"
