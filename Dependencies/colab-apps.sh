@@ -105,7 +105,7 @@ echo "To access your files, mount the root filesystem first by opening the "Moun
 echo "If this script is helpful to you, please consider subscribing to my channel and following my facebook page:"
 echo "Subscribe To My Channel: https://bit.ly/3u4gpbQ"
 echo "Follow Me On Facebook: https://bit.ly/3LAPF8U"
-echo "I will be glad and it will be a big help to me if you do that :)"
+echo "I will be glad and it will be a big help to me if you do that XD"
 echo "========================================================================================================="
 echo ""
 echo "What do you want to do?
@@ -123,7 +123,7 @@ do
         clear
             break
             ;;
-        *) echo "Invalid Option :( $REPLY";;
+        *) echo "Invalid Option $REPLY";;
     esac
 done
             ;;
@@ -131,7 +131,7 @@ done
         clear
             break
             ;;
-        *) echo "Invalid Option :( $REPLY";;
+        *) echo "Invalid Option $REPLY";;
     esac
 done
             ;;
@@ -157,14 +157,14 @@ done
         "Option 3")
             echo "you chose choice $REPLY which is $opt"
             ;;
-        *) echo "Invalid Option :( $REPLY";;
+        *) echo "Invalid Option $REPLY";;
     esac
 done
             ;;
         "Option 3")
             echo "you chose choice $REPLY which is $opt"
             ;;
-        *) echo "Invalid Option :( $REPLY";;
+        *) echo "Invalid Option $REPLY";;
     esac
 done
             ;;
@@ -175,7 +175,7 @@ done
             echo "Select Remote Desktop Software/Protocol You Need To Use:"
             echo ""
             RDPP='Please enter your choice: '
-options=("Chrome Remote Desktop(RDP) - Recommended" "TurboVNC + VirtualGL(VNC) - Use this only if you will install and use hardware accelerated softwares from the app lists.")
+options=("Chrome Remote Desktop - Recommended" "TurboVNC + VirtualGL - Use this only if you will install and use hardware accelerated softwares from the app lists.")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -234,7 +234,7 @@ do
 cd /home/colab/Colab-Apps/Dependencies/
 python startcrd.py
             ;;
-        *) echo "Invalid Option :( $REPLY";;
+        *) echo "Invalid Option $REPLY";;
     esac
 done
 cd /home/colab/
@@ -246,7 +246,7 @@ echo "Connect now to RDP using Chrome Remote Desktop!"
 echo "If this script is helpful to you, please consider subscribing to my channel and following my facebook page:"
 echo "Subscribe To My Channel: https://bit.ly/3u4gpbQ"
 echo "Follow Me On Facebook: https://bit.ly/3LAPF8U"
-echo "I will be glad and it will be a big help to me if you do that :)"
+echo "I will be glad and it will be a big help to me if you do that XD"
 echo "========================================================================================================="
 CAF='Please enter your choice: '
 options=("Go Back To Colab-Apps Main Menu" "Quit")
@@ -262,7 +262,7 @@ do
         clear
             break
             ;;
-        *) echo "Invalid Option :( $REPLY";;
+        *) echo "Invalid Option $REPLY";;
     esac
 done
             ;;
@@ -282,7 +282,7 @@ done
         clear
             break
             ;;
-        *) echo "Invalid Option :( $REPLY";;
+        *) echo "Invalid Option $REPLY";;
     esac
 done
             ;;
@@ -290,7 +290,7 @@ done
         clear
             break
             ;;
-        *) echo "Invalid Option :( $REPLY";;
+        *) echo "Invalid Option $REPLY";;
     esac
 done
             ;;
@@ -312,6 +312,6 @@ done
         "Quit")
             break
             ;;
-        *) echo "Invalid Option :( $REPLY";;
+        *) echo "Invalid Option $REPLY";;
     esac
 done
