@@ -39,9 +39,9 @@ apt update
 wget https://github.com/nagasechan97/colab-apps/raw/main/Dependencies/colab-apps.sh
 mv colab-apps.sh /home/colab/Colab-Apps/Dependencies/colab-apps.sh
 wget https://github.com/nagasechan97/colab-apps/raw/main/Dependencies/startcrd.py
-mv colab-apps.sh /home/colab/Colab-Apps/Dependencies/startcrd.py
+mv startcrd.py /home/colab/Colab-Apps/Dependencies/startcrd.py
 wget https://github.com/nagasechan97/colab-apps/raw/main/Dependencies/logo.sh
-mv colab-apps.sh /home/colab/Colab-Apps/Dependencies/logo.sh
+mv logo.sh /home/colab/Colab-Apps/Dependencies/logo.sh
 cd /home/colab/Colab-Apps/Dependencies/
 chmod +x logo.sh
 chmod +x colab-apps.sh
