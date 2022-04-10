@@ -19,6 +19,6 @@ WINEPREFIX="$HOME/.sakurayuich-colabapps/aecs6" WINEARCH=win64 wine C:\ae.lnk
         "Option 2")
             break
             ;;
-        *) echo "invalid option $REPLY";;
+        *) echo "Invalid Option :( $REPLY";;
     esac
 done
