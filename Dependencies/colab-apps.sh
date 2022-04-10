@@ -219,7 +219,7 @@ echo "$(tput setaf 6)1. Copy and go to this link using your browser: http://remo
 echo "2. Click the "begin" button"
 echo "2. Click the "next" button"
 echo "2. Click the "authorize" button"
-echo "3. Choose account you want to use (Only if you have multiple google accounts signed in from your browser) and click the allow Button "
+echo "3. Choose account you want to use and click the allow Button "
 echo "4. Below the "Debian Linux" text copy the code or simply click the copy button."
 echo "5. Last, type "1" and hit enter to proceed to Chrome Remote Desktop Installation."
 echo "$========================================================================================================="
