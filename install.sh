@@ -32,12 +32,21 @@ cd /home/colab/
 mkdir Colab-Apps
 cd Colab-Apps
 mkdir Dependencies
-cd /home/colab
 echo "$(tput setaf 6)=================================================================================================================================================================$(tput sgr 0)"
 echo "$(tput setaf 4) $(tput setaf 4) Checking And Installing Missing Dependencies..."
 echo "$(tput setaf 6)=================================================================================================================================================================$(tput sgr 0)"
 apt update
 wget https://github.com/nagasechan97/colab-apps/raw/main/Dependencies/colab-apps.sh
+mv colab-apps.sh /home/colab/Colab-Apps/Dependencies/colab-apps.sh
+wget https://github.com/nagasechan97/colab-apps/raw/main/Dependencies/startcrd.py
+mv colab-apps.sh /home/colab/Colab-Apps/Dependencies/startcrd.py
+wget https://github.com/nagasechan97/colab-apps/raw/main/Dependencies/logo.sh
+mv colab-apps.sh /home/colab/Colab-Apps/Dependencies/logo.sh
+cd /home/colab/Colab-Apps/Dependencies/
+chmod +x logo.sh
+chmod +x colab-apps.sh
+chmod +x startcrd.py
+cd /home/colab
 echo "$(tput setaf 6)=================================================================================================================================================================$(tput sgr 0)"
 echo "$(tput setaf 4) $(tput setaf 4) Enabling SSH... "
 echo "$(tput setaf 6)=================================================================================================================================================================$(tput sgr 0)"
@@ -67,4 +76,3 @@ echo "$(tput setaf 4) $(tput setaf 4) Colab-Apps Was Installed Sucessfully q(≧
 echo "$(tput setaf 4) $(tput setaf 4) Follow The Instructions Above To Connect To SSH Then After Logging in, Type And Run This Command "./start.sh"
 echo "$(tput setaf 6)=================================================================================================================================================================$(tput sgr 0)"
 cd /root/
-rm start.sh
