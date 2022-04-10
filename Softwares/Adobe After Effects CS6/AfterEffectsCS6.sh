@@ -1,4 +1,5 @@
 #bin/bash
+/home/colab/Colab-Apps/Dependencies/logo.sh
 echo "$(tput setaf 6)"
 echo "$========================================================================================================="
 echo "$(tput setaf 1) WARNING!!!"
@@ -17,6 +18,7 @@ echo "==========================================================================
 WINEPREFIX="$HOME/.sakurayuich-colabapps/aecs6" WINEARCH=win64 wine C:\ae.lnk
             ;;
         "Option 2")
+        clear
             break
             ;;
         *) echo "Invalid Option :( $REPLY";;
