@@ -52,7 +52,7 @@ figlet After Effects CS6
 printf "${STOP}"
 echo "$========================================================================================================="
 echo "$(tput setaf 1) WARNING!!!"
-echo "$(tput setaf 6) "You need a desktop environment to install and run this program! If you dont have Desktop Environment installed, you need to install it first."
+echo "$(tput setaf 6) "You need a desktop environment to install and run this program. If you dont have Desktop Environment installed, you need to install it first."
 echo "$========================================================================================================="
 echo "$Did you read the message?"
 AECS6='Please enter your choice: '
@@ -97,15 +97,15 @@ cd /home/colab/Desktop/
 rm Start.zip
 cd /home/colab/
 echo "$(tput setaf 6)========================================================================================================="
-echo "Adobe After Effects CS6 Was Installed Successfully!"
-echo "Connect now to RDP using Chrome Remote Desktop!"
+echo "Adobe After Effects CS6 Was Installed Successfully"
+echo "Connect now to RDP using Chrome Remote Desktop."
 echo "Just Simply Click AfterEffectsCS6.sh from your desktop to start the program."
 echo "To access your files, mount the root filesystem first by opening the "Mount" folder from desktop, then open "Adobe After Effects CS6" folder," and last double click the "mount.sh" file and follow the instruction there."
 
 echo "If this script is helpful to you, please consider subscribing to my channel and following my facebook page:"
 echo "Subscribe To My Channel: https://bit.ly/3u4gpbQ"
 echo "Follow Me On Facebook: https://bit.ly/3LAPF8U"
-echo "I will be glad and it will be a big help to me if you do that XD"
+echo "I will be glad and it will be a big help to me XD"
 echo "========================================================================================================="
 echo ""
 echo "What do you want to do?
@@ -175,7 +175,7 @@ done
             echo "Select Remote Desktop Software/Protocol You Need To Use:"
             echo ""
             RDPP='Please enter your choice: '
-options=("Chrome Remote Desktop - Recommended" "TurboVNC + VirtualGL - Use this only if you will install and use hardware accelerated softwares from the app lists.")
+options=("Chrome Remote Desktop - Recommended" "TurboVNC + VirtualGL - Use this only when you will install and use hardware accelerated softwares from the app lists.")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -241,12 +241,12 @@ cd /home/colab/
 echo "$(tput setaf 6)========================================================================================================="
 echo "LXDE Was Installed Successfully!"
 echo "You can install softwares now that needs Desktop Environment or GUI or"
-echo "Connect now to RDP using Chrome Remote Desktop!"
+echo "Connect now to RDP using Chrome Remote Desktop."
 
 echo "If this script is helpful to you, please consider subscribing to my channel and following my facebook page:"
 echo "Subscribe To My Channel: https://bit.ly/3u4gpbQ"
 echo "Follow Me On Facebook: https://bit.ly/3LAPF8U"
-echo "I will be glad and it will be a big help to me if you do that XD"
+echo "I will be glad and it will be a big help to me XD"
 echo "========================================================================================================="
 CAF='Please enter your choice: '
 options=("Go Back To Colab-Apps Main Menu" "Quit")
