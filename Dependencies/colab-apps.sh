@@ -52,7 +52,7 @@ figlet After Effects CS6
 printf "${STOP}"
 echo "$========================================================================================================="
 echo "$(tput setaf 1) WARNING!!!"
-echo "$(tput setaf 6) "You need a desktop environment to install and run this program! If you don't have Desktop Environment installed, you need to install it first."
+echo "$(tput setaf 6) "You need a desktop environment to install and run this program! If you dont have Desktop Environment installed, you need to install it first."
 echo "$========================================================================================================="
 echo "$Did you read the message?"
 AECS6='Please enter your choice: '
