@@ -1,3 +1,4 @@
+#/bin/bash
 echo "$(tput setaf 2)         █████████████████ $(tput sgr 0)"
 echo "$(tput setaf 2)        ██               ██ $(tput sgr 0)"
 echo "$(tput setaf 2)        ██               ██ $(tput sgr 0)"
