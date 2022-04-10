@@ -18,9 +18,9 @@ echo "$(tput setaf 4) ███                          ███ $(tput sgr 0)
 echo "$(tput setaf 4)   ████████████████████████████ $(tput sgr 0)"
 echo ""
 echo "$(tput setaf 6)=========================================================================================================$(tput sgr 0)"
-echo "$(tput setaf 4) Script Made By Yui Sakura $(tput sgr 0)"                  
-echo "$(tput setaf 4) Subscribe To My Channel: https://bit.ly/3u4gpbQ"
-echo "$(tput setaf 4) Follow Me On Facebook: https://bit.ly/3LAPF8U"
+echo "$(tput setaf 6) Script Made By Yui Sakura $(tput sgr 0)"                  
+echo "$(tput setaf 6) Subscribe To My Channel: https://bit.ly/3u4gpbQ"
+echo "$(tput setaf 6) Follow Me On Facebook: https://bit.ly/3LAPF8U"
 echo "$(tput setaf 6)=========================================================================================================$(tput sgr 0)"
-echo "$(tput setaf 4) $(tput setaf 4) Hello q(≧▽≦q), What Do You Want To Do?
+echo "$(tput setaf 6) $(tput setaf 4) Hello, What Do You Want To Do?
 /home/colab/Colab-Apps/colab-apps.sh
