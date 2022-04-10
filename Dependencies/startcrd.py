@@ -1,5 +1,5 @@
 import os
-CRP = input("Please enter your authcode from the given link:")
+CRP = input("Please enter or paste your authcode from the given link:")
 Pin = 123456
 user = colab
 
