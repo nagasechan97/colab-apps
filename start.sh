@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 echo "$(tput setaf 2)         █████████████████ $(tput sgr 0)"
 echo "$(tput setaf 2)        ██               ██ $(tput sgr 0)"
 echo "$(tput setaf 2)        ██               ██ $(tput sgr 0)"
@@ -22,5 +22,4 @@ echo "$(tput setaf 6) Script Made By Yui Sakura $(tput sgr 0)"
 echo "$(tput setaf 6) Subscribe To My Channel: https://bit.ly/3u4gpbQ"
 echo "$(tput setaf 6) Follow Me On Facebook: https://bit.ly/3LAPF8U"
 echo "$(tput setaf 6)=========================================================================================================$(tput sgr 0)"
-echo "$(tput setaf 6)Hello, What Do You Want To Do?"
 /home/colab/Colab-Apps/Dependencies/colab-apps.sh
