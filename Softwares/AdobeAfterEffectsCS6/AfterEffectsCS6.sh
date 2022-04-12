@@ -8,16 +8,16 @@ echo "$=========================================================================
 echo "Did you read the message?"
 PS3='Please enter your choice: '
 options=("Yes" "No")
-select opt in "${options[@]}"
+select selected in "${options[@]}"
 do
-    case $opt in
-        "Option 1")
+    case $selected in
+        "Yes")
             echo "$========================================================================================================="
 echo "Starting Adobe After Effects CS6"      
 echo "========================================================================================================="
 WINEPREFIX="$HOME/.sakurayuich-colabapps/aecs6" WINEARCH=win64 wine C:\ae.lnk
             ;;
-        "Option 2")
+        "No")
         clear
             break
             ;;
