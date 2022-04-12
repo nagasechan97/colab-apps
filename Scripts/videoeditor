@@ -1,5 +1,5 @@
 #!/bin/bash
-./home/colab/Colab-Apps/Dependencies/logo
+/home/colab/Colab-Apps/Dependencies/logo
 echo "$(tput setaf 6)"
 echo "Select Video Editor You Want To Install:"
 PS3='Please enter your choice: '
@@ -8,14 +8,14 @@ select selected in "${options[@]}"; do
     case $selected in
         "Adobe After Effects CS6")
 		clear
-		./home/colab/Colab-Apps/Softwares/AdobeAfterEffectsCS6/select
+		/home/colab/Colab-Apps/Softwares/AdobeAfterEffectsCS6/select
 		break
             ;;
         "Wondershare Filmora X")
             ;;
         "Go Back To Software Category Lists")
 		clear
-		./home/colab/Colab-Apps/Dependencies/softwares
+		/home/colab/Colab-Apps/Dependencies/softwares
 	    break
             ;;
         *) echo "Invalid Option ╯︿╰ $REPLY";;
