@@ -24,6 +24,3 @@ WINEPREFIX="$HOME/.sakurayuich-colabapps/aecs6" WINEARCH=win64 wine C:\ae.lnk
         *) echo "Invalid Option ╯︿╰ $REPLY";;
     esac
 done
-© 2022 GitHub, Inc.
-Terms
-Priva
