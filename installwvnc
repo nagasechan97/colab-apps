@@ -53,6 +53,7 @@ chmod +x colab-apps
 chmod +x cao1
 chmod +x crdde
 cd /home/colab/Colab-Apps/Scripts/
+rm finvnc
 chmod +x lxde
 chmod +x softwares
 chmod +x startlxdecrd.py
