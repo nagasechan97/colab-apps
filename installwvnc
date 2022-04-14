@@ -51,16 +51,24 @@ cd /home/colab/Colab-Apps/Dependencies/
 chmod +x logo
 chmod +x colab-apps
 chmod +x cao1
-chmod +x crdde
 cd /home/colab/Colab-Apps/Scripts/
-rm finvnc
 chmod +x lxde
 chmod +x softwares
 chmod +x startlxdecrd.py
 chmod +x videoeditor
 chmod +x de
+chmod +x crdde
+chmod +x finvnc
+chmod +x gnome
+chmod +x kde
+chmod +x lxde
+chmod +x lxqt
+chmod +x mate
+chmod +x xfce4
+chmod +x xfcevnc
 cd /home/colab/Colab-Apps/Softwares/AdobeAfterEffectsCS6/
 chmod +x AfterEffectsCS6.sh
+chmod +x info
 chmod +x install1
 chmod +x install2
 chmod +x select
