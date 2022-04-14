@@ -68,7 +68,7 @@ chmod +x warn2
 chmod +x info
 cd /home/colab/
 echo "$(tput setaf 6)=================================================================================================================================================================$(tput sgr 0)"
-echo "$(tput setaf 4) $(tput setaf 4) Installing Colab-Apps... "
+echo "$(tput setaf 6) Installing Colab-Apps... "
 echo "$(tput setaf 6)=================================================================================================================================================================$(tput sgr 0)"
 cd /root/
 echo "$(tput setaf 6)"
@@ -77,15 +77,6 @@ chmod +x start
 cp start /home/colab/start
 cd /home/colab
 chmod +x start
-cd /root/
-echo "$(tput setaf 6)=================================================================================================================================================================$(tput sgr 0)"
-echo "$(tput setaf 4) $(tput setaf 4) Removing Useless Files From Google Colab and Colab-Apps Installer To Free Up Storage... "
-echo "$(tput setaf 6)=================================================================================================================================================================$(tput sgr 0)"
 cd /content/
-rm -r sample_data
-echo "$(tput setaf 4) $(tput setaf 4) Files Was Deleted Successfully! "
-echo "$(tput setaf 6)=================================================================================================================================================================$(tput sgr 0)"
-echo "$(tput setaf 4) $(tput setaf 4) Colab-Apps Was Installed Sucessfully q(≧▽≦q)"
-echo "$(tput setaf 4) $(tput setaf 4) Follow The Instructions Above To Connect To SSH Then After Logging in, Type And Run This Command "./start""
-echo "$(tput setaf 6)=================================================================================================================================================================$(tput sgr 0)"
-cd /root/
+figlet "Remocolab"
+echo "$(tput setaf 6) "
