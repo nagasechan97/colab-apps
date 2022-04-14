@@ -60,7 +60,7 @@ chmod +x de
 chmod +x crdde
 chmod +x finvnc
 chmod +x gnome
-chmod +xkde
+chmod +x kde
 chmod +x lxde
 chmod +x lxqt
 chmod +x mate
