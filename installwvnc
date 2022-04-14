@@ -65,7 +65,7 @@ chmod +x lxde
 chmod +x lxqt
 chmod +x mate
 chmod +x xfce4
-chmod +x xfcevnc
+chmod +x xfce4vnc
 cd /home/colab/Colab-Apps/Softwares/AdobeAfterEffectsCS6/
 chmod +x AfterEffectsCS6.sh
 chmod +x info
