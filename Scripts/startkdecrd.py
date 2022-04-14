@@ -3,7 +3,7 @@ CRP = input("Please enter or paste your authcode from the given link:")
 Pin = 123456
 user = colab
 
-os.system("bash -c 'echo \"exec /etc/X11/Xsession /usr/bin/startlxde\" > /etc/chrome-remote-desktop-session'")
+os.system("bash -c 'echo \"exec /etc/X11/Xsession /usr/bin/startplasma-x11\" > /etc/chrome-remote-desktop-session'")
 
 os.system(f"adduser {user} chrome-remote-desktop")
 command = f"{CRP} --pin={Pin}"
