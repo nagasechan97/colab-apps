@@ -1,0 +1,31 @@
+#!/bin/bash
+echo "$(tput setaf 6)=================================================================================================================================================================$(tput sgr 0)"
+echo "$(tput setaf 4) $(tput setaf 4) Removing Useless Files From Google Colab and Remocolab To Free Up Storage... "
+echo "$(tput setaf 6)=================================================================================================================================================================$(tput sgr 0)"
+cd /content/
+rm -r sample_data
+rm libjpeg-turbo.deb
+rm virtualgl.deb
+rm virtualgl32.deb
+rm turbovnc.deb
+echo "$(tput setaf 4) $(tput setaf 4) Files Was Deleted Successfully! "
+echo "$(tput setaf 6)================================================================================================================================================================="
+echo ""
+echo "LXDE Was Installed Successfully \^o^/"
+echo "You can install softwares now that needs Desktop Environment/GUI or"
+echo "Connect now to VNC by executing the command above from Remocolab."
+echo ""
+echo "If you want to start again the Colab-Apps and install softwares from your termminal."
+echo "Make sure you switch user to root account first. Just simply run \"su\", command and enter the default root password \"root\"."
+echo "After that you will be able to start Colab-Apps normally, by running the command \"./start\"."
+echo ""
+echo "If you want to perform operations the requires root, you may"
+echo "Use the \"sudo <command>\" then enter the default password \"colab123\" or"
+echo "Change to root account by using \"su\" command then enter the root default password \"root\" so you dont have to add \"sudo\" at the beginning everytime you will execute commands that requires root permission"
+echo ""
+echo "If this script is helpful to you, please consider subscribing to my channel and following my facebook page:"
+echo "Subscribe To My Channel: https://bit.ly/3u4gpbQ"
+echo "Follow Me On Facebook: https://bit.ly/3LAPF8U"
+echo "I will be glad and it will be a big help to me XD"
+echo "$(tput setaf 6)=================================================================================================================================================================$(tput sgr 0)"
+cd /root/
