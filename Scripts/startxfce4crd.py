@@ -1,7 +1,7 @@
 import os
 CRP = input("Please enter or paste your authcode from the given link:")
 Pin = 123456
-user = colab
+user = "colab"
 
 os.system("bash -c 'echo \"exec /etc/X11/Xsession /usr/bin/xfce4-session\" > /etc/chrome-remote-desktop-session'")
 
