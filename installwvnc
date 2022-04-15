@@ -47,6 +47,7 @@ rm -r /home/colab/Tmp/
 cd /home/colab/Colab-Apps/
 rm start
 rm install
+rm installwvnc
 cd /home/colab/Colab-Apps/Dependencies/
 chmod +x logo
 chmod +x colab-apps
@@ -59,8 +60,6 @@ chmod +x videoeditor
 chmod +x de
 chmod +x crdde
 chmod +x finvnc
-chmod +x gnome
-chmod +x kde
 chmod +x lxde
 chmod +x lxqt
 chmod +x mate
@@ -74,7 +73,11 @@ chmod +x install2
 chmod +x select
 chmod +x warn1
 chmod +x warn2
+cd /home/colab/Colab-Apps/Softwares/WondershareFilmoraX/
 chmod +x info
+chmod +x FilmoraX.sh
+chmod +x install
+chmod +x warn
 cd /home/colab/
 echo "$(tput setaf 6)=================================================================================================================================================================$(tput sgr 0)"
 echo "$(tput setaf 6) Installing Colab-Apps... "
